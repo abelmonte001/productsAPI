@@ -1,0 +1,33 @@
+{
+  "name": "products",
+  "version": "1.0.0",
+  "description": "This is the API for products",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx jest --coverage",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rpp34-sdc-tower/Products.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rpp34-sdc-tower/Products/issues"
+  },
+  "homepage": "https://github.com/rpp34-sdc-tower/Products#readme",
+  "devDependencies": {
+    "jest": "^28.1.0"
+  },
+  "dependencies": {
+    "axios": "^0.27.2",
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
+    "nodemon": "^2.0.16",
+    "pg": "^8.7.3",
+    "response-time": "^2.3.2",
+    "supertest": "^6.2.3"
+  }
+}
